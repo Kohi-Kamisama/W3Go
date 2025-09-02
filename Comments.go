@@ -13,6 +13,7 @@ func Comments() {
 		Great for long comments
 		and useful for code blocks
 	*/
+	//comment()
 }
 
 /*
