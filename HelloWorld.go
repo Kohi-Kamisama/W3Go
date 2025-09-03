@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func HelloWorld() {
+func HelloWorld() { // HelloWorld
 	fmt.Println("Hello World!")
 	fmt.Println("\nAre you there?")
 	fmt.Println("\nYes we are.")

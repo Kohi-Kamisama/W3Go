@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func Comments() {
+func Comments() { // Comments
 	// This is a comment
 	fmt.Println("Comments!") // This is a comment
 	/*
