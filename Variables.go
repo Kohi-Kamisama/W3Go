@@ -49,4 +49,13 @@ func main() { // Variables
 	fmt.Println(f)
 
 	fmt.Println(dash)
+
+	var h, i, j, k int = 1, 3, 9, 7
+
+	fmt.Println(h)
+	fmt.Println(i)
+	fmt.Println(j)
+	fmt.Println(k)
+
+	fmt.Println(dash) // l m n o p
 }
