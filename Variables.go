@@ -4,7 +4,6 @@ import (
 	"fmt"
 )
 
-var d int
 var f int = 9
 var g = 7
 
@@ -44,6 +43,7 @@ func Variables() { // Variables
 	fmt.Println(dash)
 
 	e := 3
+
 	fmt.Println(e)
 	fmt.Println(f)
 	fmt.Println(g)
