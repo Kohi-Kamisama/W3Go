@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Constants() { // Constants
+func Conditions() { // Conditions
 	dash := "--------"
 	fmt.Println(dash)
 

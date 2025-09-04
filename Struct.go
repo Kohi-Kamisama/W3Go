@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func Constants() { // Constants
+func Struct() { // Struct
 	dash := "--------"
 	fmt.Println(dash)
 
