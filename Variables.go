@@ -5,11 +5,11 @@ import (
 )
 
 var d int
-var e int = 2
-var f = 3
+var f int = 9
+var g = 7
 
 /*
-g := 4
+h := 1
 	":=" can only be used in a function the code above will produce an error
 */
 
@@ -19,21 +19,21 @@ func main() { // Variables
 
 	var student1 string = "John" //type is string
 	var student2 = "Jane"        // type is inferred
-	x := 2                       //type is inferred
+	a := 1                       //type is inferred
 
 	fmt.Println(student1)
 	fmt.Println(student2)
-	fmt.Println(x)
+	fmt.Println(a)
 
 	fmt.Println(dash)
 
-	var a string
-	var b int
-	var c bool
+	var b string
+	var c int
+	var d bool
 
-	fmt.Println(a)
 	fmt.Println(b)
 	fmt.Println(c)
+	fmt.Println(d)
 
 	fmt.Println(dash)
 
@@ -43,19 +43,41 @@ func main() { // Variables
 
 	fmt.Println(dash)
 
-	d = 1
-	fmt.Println(d)
+	e := 3
 	fmt.Println(e)
 	fmt.Println(f)
+	fmt.Println(g)
 
 	fmt.Println(dash)
 
-	var h, i, j, k int = 1, 3, 9, 7
+	var i, j, k, l int = 1, 3, 9, 7
 
-	fmt.Println(h)
 	fmt.Println(i)
 	fmt.Println(j)
 	fmt.Println(k)
+	fmt.Println(l)
 
-	fmt.Println(dash) // l m n o p
+	fmt.Println(dash)
+
+	var m, n = 1, "Hello "
+	o, p := "world!", 3
+
+	fmt.Println(m)
+	fmt.Println(n)
+	fmt.Println(o)
+	fmt.Println(p)
+
+	fmt.Println(dash)
+
+	var (
+		q int
+		r int    = 9
+		s string = "Janet"
+	)
+
+	fmt.Println(q)
+	fmt.Println(r)
+	fmt.Println(s)
+
+	fmt.Println(dash) // t u v w x y z (1, 3, 9, 7)
 }
