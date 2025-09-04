@@ -79,5 +79,5 @@ func main() { // Variables
 	fmt.Println(r)
 	fmt.Println(s)
 
-	fmt.Println(dash) // t u v w x y z (1, 3, 9, 7)
+	fmt.Println(dash)
 }
