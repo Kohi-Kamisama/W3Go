@@ -13,7 +13,7 @@ h := 1
 	":=" can only be used in a function the code above will produce an error
 */
 
-func main() { // Variables
+func Variables() { // Variables
 	dash := "--------"
 	fmt.Println(dash)
 
