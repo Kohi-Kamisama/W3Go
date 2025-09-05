@@ -46,7 +46,7 @@ func main() { // Output
 
 	fmt.Println(dash)
 
-	var flt = 3.14
+	var flt = 3.1415
 	var txt = "Pi"
 
 	fmt.Printf("%v \n", flt)   // Prints in default formate
@@ -75,6 +75,31 @@ func main() { // Output
 	fmt.Printf("%04d \n", f) // Pad with zeroes, width 4
 
 	fmt.Println(dash)
+
+	fmt.Printf("%s \n", e)   // Prints as plain string
+	fmt.Printf("%q \n", e)   // Prints as double quoted
+	fmt.Printf("%8s \n", e)  // Prints as plain string width 8 right justified
+	fmt.Printf("%-8s \n", e) // Prints as plain string width 8 left justified
+	fmt.Printf("%x \n", e)   // Prints as hex dump of byte values
+	fmt.Printf("% x \n", e)  // Prints as hex dump with spaces
+
+	fmt.Println(dash)
+
+	var (
+		g = true
+		h = false
+	)
+
+	fmt.Printf("%t \n", g) // prints boolean in true or false format
+	fmt.Printf("%v \n", h) // could aslo use %v to do the same
+
+	fmt.Println(dash)
+
+	fmt.Printf("%e \n", flt)    // Scientific notation with 'e' es exponent
+	fmt.Printf("%f \n", flt)    // Decimal point, no exponent
+	fmt.Printf("%.2f \n", flt)  // Default width, precision 2
+	fmt.Printf("%6.2f \n", flt) // Width 6, precision 2
+	fmt.Printf("%g \n", flt)    // exponent as needed , only necessary digits
 
 	// Use to copy and past, from f to the next line. Comment out when following the examples.
 	//fmt.Println()
