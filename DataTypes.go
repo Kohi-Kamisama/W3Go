@@ -32,6 +32,45 @@ func main() { // DataTypes
 
 	fmt.Println(dash)
 
+	// Sighned Integers - can store both positive and negetive values
+	// Unsighned Integers - can only store positive values
+
+	var i1 int = 420
+	var i2 int = -420
+
+	fmt.Printf("Type: %T, value: %v\n", i1, i1)
+	fmt.Printf("Type: %T, value: %v\n", i2, i2)
+
+	fmt.Println(dash)
+
+	fmt.Println("int8: 8 bits, -128 to 127")
+	fmt.Println("int16: 16 bits, -32768 to 32767")
+	fmt.Println("int32: 32 bits, -2147483648 to 147483647")
+	fmt.Println("int64: 64 bits, -9223372036854775808 to 9223372036854775807")
+
+	fmt.Println("\nint will default to eather to int32 or int64 depending on your platform system")
+
+	fmt.Println(dash)
+
+	var u1 uint = 420
+
+	fmt.Printf("Type: %T, value: %v\n", u1, u1)
+
+	fmt.Println(dash)
+
+	//fmt.Println("int8: 8 bits, -128 to 127")
+
+	fmt.Println("unit8: 8 bits, 0 to 255")
+	fmt.Println("unit16: 16 bits , 0 to 65535")
+	fmt.Println("unit32: 32 bits , 0 to 4294967295")
+	fmt.Println("unit64: 64 bits , 0 to 18446744073709551615")
+
+	fmt.Println("\nunit will default to eather to unit32 or unit64 depending on your platform system")
+
+	fmt.Println(dash)
+
+	// do 8 commits
+
 	// Use to copy and past, from f to the next line. Comment out when following the examples.
 	// fmt.Println()
 
