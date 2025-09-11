@@ -79,7 +79,15 @@ func main() { // DataTypes
 
 	fmt.Println(dash)
 
-	// do 7 commits
+	var s1 string = "HELP"
+	var s2 string
+	s3 := "PIE"
+
+	fmt.Printf("Type: %T, value: %v", s1, s1)
+	fmt.Printf("\nType: %T, value: %v", s2, s2)
+	fmt.Printf("\nType: %T, value: %v\n", s3, s3)
+
+	fmt.Println(dash)
 
 	// Use to copy and past, from f to the next line. Comment out when following the examples.
 	// fmt.Println()
