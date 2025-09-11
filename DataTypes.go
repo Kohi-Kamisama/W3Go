@@ -69,7 +69,17 @@ func main() { // DataTypes
 
 	fmt.Println(dash)
 
-	// do 8 commits
+	fmt.Println("float32: 32 bits, -3.4e+38 to 3.4e+38")
+	fmt.Println("float64: 64 bits, -1.7e+308 to 1.7e+308")
+
+	uf := 1.7e308
+
+	fmt.Println("\nDefault for a unspecify float is float64")
+	fmt.Printf("Type: %T, value: %v\n", uf, uf)
+
+	fmt.Println(dash)
+
+	// do 7 commits
 
 	// Use to copy and past, from f to the next line. Comment out when following the examples.
 	// fmt.Println()
