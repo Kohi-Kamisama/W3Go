@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() { // DataTypes
+func DataTypes() { // DataTypes
 	dash := "--------"
 	fmt.Println(dash)
 
