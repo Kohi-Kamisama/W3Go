@@ -100,12 +100,20 @@ func main() { // Operators
 
 	fmt.Print("Comparison Operators (X vs Y)\n\n")
 
-	fmt.Println("Equal to:", x == y)
-	fmt.Println("Not equal:", x != y)
-	fmt.Println("Greater than:", x > y)
-	fmt.Println("Less than:", x < y)
-	fmt.Println("Grater than or Equal to:", x >= y)
-	fmt.Println("Less than or Equal to:", x <= y)
+	fmt.Println("1. Equal to:", x == y)
+	fmt.Println("2. Not equal:", x != y)
+	fmt.Println("3. Greater than:", x > y)
+	fmt.Println("4. Less than:", x < y)
+	fmt.Println("5. Grater than or Equal to:", x >= y)
+	fmt.Println("6. Less than or Equal to:", x <= y)
+
+	fmt.Println(dash)
+
+	fmt.Print("Logical Operators\n\n")
+
+	fmt.Println("Logical 3 and 6", (x > y && x <= y))
+	fmt.Println("Logical 2 or 1", (x != y || x == y))
+	fmt.Println("Logical 5 not 4", (!(x >= y && x < y)))
 
 	fmt.Println(dash)
 
