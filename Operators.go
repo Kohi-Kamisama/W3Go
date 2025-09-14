@@ -31,7 +31,9 @@ func main() { // Operators
 	y--
 	fmt.Println("Decrement: 4-- =", y)
 
-	fmt.Println(dash)
+	fmt.Println(dash) // --------
+
+	fmt.Print("Assignment Operators\n\n")
 
 	var a = 8
 	fmt.Println(a)
@@ -93,6 +95,17 @@ func main() { // Operators
 	fmt.Printf("k is %b \n", k)
 	k <<= 4
 	fmt.Printf("k now is %03b \n", k)
+
+	fmt.Println(dash) // --------
+
+	fmt.Print("Comparison Operators (X vs Y)\n\n")
+
+	fmt.Println("Equal to:", x == y)
+	fmt.Println("Not equal:", x != y)
+	fmt.Println("Greater than:", x > y)
+	fmt.Println("Less than:", x < y)
+	fmt.Println("Grater than or Equal to:", x >= y)
+	fmt.Println("Less than or Equal to:", x <= y)
 
 	fmt.Println(dash)
 
