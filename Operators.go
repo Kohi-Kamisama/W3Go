@@ -117,6 +117,30 @@ func main() { // Operators
 
 	fmt.Println(dash)
 
+	x = 9
+	y = 8
+
+	fmt.Printf("x = %b\n", x)
+	fmt.Printf("y = %b\n\n", y)
+
+	fmt.Printf("x & y is %b\n", x&y) // AND
+	// Set each bit to 1 if both bits are 1
+
+	fmt.Printf("x | y is %b\n", x|y) // OR
+	// sets each bit to 1 if one of two bits is 1
+
+	fmt.Printf("x ^ y is %b\n", x^y) // XOR
+	// Sets each bit to 1 if only one of two bits is 1
+
+	fmt.Printf("x << 2 is %b\n", x<<2) // Zero fill left shift
+	// Shifts left by pushing zeros in from the right
+
+	fmt.Printf("x >> 2 is %b\n", x>>2) // Sighned right shift
+	// Shift right by pushing copies of the leftmost bit
+	// in from the left, and let the rightmost bit fall off
+
+	fmt.Println(dash)
+
 	// Use to copy and past, from f to the next line. Comment out when following the examples.
 	//fmt.Println()
 
