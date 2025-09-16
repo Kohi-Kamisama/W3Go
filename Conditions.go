@@ -72,6 +72,19 @@ func main() { // Conditions
 
 	fmt.Println(dash)
 
+	f := 20
+
+	if f >= 10 {
+		fmt.Println("f is more than 10")
+		if f > 15 {
+			fmt.Println("f is also more than 15")
+		}
+	} else {
+		fmt.Println("f is less than 10")
+	}
+
+	fmt.Println(dash)
+
 	// Use to copy and past, from f to the next line. Comment out when following the examples.
 	//fmt.Println()
 
