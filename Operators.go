@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() { // Operators
+func Operators() { // Operators
 	dash := "--------"
 	fmt.Println(dash)
 
