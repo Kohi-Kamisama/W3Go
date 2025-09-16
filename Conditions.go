@@ -24,9 +24,9 @@ func main() { // Conditions
 	time := 20
 
 	if time < 18 {
-		fmt.Println("Good day.")
+		fmt.Println("Good day")
 	} else {
-		fmt.Println("Good evening.")
+		fmt.Println("Good evening")
 	}
 
 	temp := 14
@@ -35,6 +35,39 @@ func main() { // Conditions
 		fmt.Println("It is warm out there")
 	} else {
 		fmt.Println("It is cold out there")
+	}
+
+	fmt.Println(dash)
+
+	time = 22
+
+	if time < 10 {
+		fmt.Println("Good morning")
+	} else if time < 20 {
+		fmt.Println("Good day")
+	} else {
+		fmt.Println("Good evening")
+	}
+
+	c := 14
+	d := 14
+
+	if c < d {
+		fmt.Println("c is less than d.")
+	} else if c > d {
+		fmt.Println("c is more than d")
+	} else {
+		fmt.Println("c and d are equal")
+	}
+
+	e := 30
+
+	if e >= 10 {
+		fmt.Println("e is larger or equal to 10")
+	} else if e > 20 {
+		fmt.Println("e is larger than 20")
+	} else {
+		fmt.Println("e is less than 10")
 	}
 
 	fmt.Println(dash)
