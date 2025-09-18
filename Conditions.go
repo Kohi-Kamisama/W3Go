@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main() { // Conditions
+func Conditions() { // Conditions
 	dash := "--------"
 	fmt.Println(dash)
 
