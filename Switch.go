@@ -4,8 +4,6 @@ import (
 	"fmt"
 )
 
-// test me
-
 func Switch() { // Switch
 	dash := "--------"
 	fmt.Println(dash)
