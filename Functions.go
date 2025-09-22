@@ -4,11 +4,21 @@ import (
 	"fmt"
 )
 
-func Functions() { // Functions
+func main() { // Functions
 	dash := "--------"
 	fmt.Println(dash)
 
-	// Use to copy and past, from f to the next line. Comment out when following the examples.
-	fmt.Println()
+	Message()
+	fmt.Println("")
+	Message()
 
+	fmt.Println(dash)
+
+	// Use to copy and past, from f to the next line. Comment out when following the examples.
+	//fmt.Println()
+
+}
+
+func Message() {
+	fmt.Println("Gods Die")
 }
