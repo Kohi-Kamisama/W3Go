@@ -57,7 +57,7 @@ func Loops() { // Loops
 
 	fmt.Println("")
 
-	for idx, _ := range fru {
+	for idx := range fru {
 		fmt.Printf("%v\n", idx)
 	}
 
