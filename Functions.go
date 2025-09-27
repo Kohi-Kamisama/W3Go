@@ -36,17 +36,28 @@ func main() { // Functions
 	fmt.Println(Add(x, y))
 	fmt.Println(Sub(x, y))
 	fmt.Println(Div(x, y))
+
 	multiply := Mul(x, y)
 	fmt.Println(multiply)
+
 	fmt.Println("")
 	fmt.Println(MRV(y, "Gods"))
 	n1, t1 := MRV(x, "Devil")
 	fmt.Println(n1, t1)
+
 	fmt.Println("")
 	_, t2 := MRV(x, "Gods")
 	fmt.Println(t2)
 	n3, _ := MRV(x, "Devil")
 	fmt.Println(n3)
+
+	fmt.Println(dash)
+
+	TestCount(1)
+
+	fmt.Println(dash)
+
+	FactorialRecursion(4)
 
 	fmt.Println(dash)
 
@@ -89,5 +100,23 @@ func Mul(x int, y int) (result int) {
 func MRV(i int, s string) (dub int, txt string) {
 	dub = i + i
 	txt = s + " Realm"
+	return
+}
+
+func TestCount(x int) int {
+	if x == 11 {
+		return 0
+	}
+	fmt.Println(x)
+	return TestCount(x + 1)
+}
+
+func FactorialRecursion(x float64) (y float64) {
+	if x > 0 {
+		y = x * FactorialRecursion(x-1)
+	} else {
+		fmt.Println("else:", x, y)
+		y = 1
+	}
 	return
 }
