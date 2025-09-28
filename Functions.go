@@ -7,7 +7,7 @@ import (
 var x int = 8
 var y int = 4
 
-func main() { // Functions
+func Functions() { // Functions
 	dash := "--------"
 	fmt.Println(dash)
 
